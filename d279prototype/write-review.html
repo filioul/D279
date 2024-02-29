@@ -1,0 +1,114 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Paradigm Pet Professionals</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <main>
+
+            <!-- Navigation Bar -->
+            <nav>
+                <a href="index.html" id="top-logo"><img src="P.png" alt="logo"></a>
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">About 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="contact.html">Contact Us</a>
+                      <a href="staff.html">Our Staff</a>
+                      <a href="faq.html">FAQ</a>
+                    </div>
+                </div> 
+                <div class="dropdown">
+                    <button class="dropbtn">Services 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="dogs.html">Dogs</a>
+                      <a href="cats.html">Cats</a>
+                      <a href="other-pets.html">Other pets</a>
+                    </div>
+                </div> 
+                <div class="dropdown">
+                    <button class="dropbtn">Reviews 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="write-review.html">Write A Review</a>
+                      <a href="reviews.html">Client Reviews</a>
+                    </div>
+                </div> 
+            </nav>
+
+            <!-- Header -->
+            <header>
+                <div class="header-div">
+                    <h1>Write a review</h1>
+                    <h3>Reviews are assessed for legitimacy and appropriateness before publication.</h3>
+                </div>
+                <img src="cats-hdr-img.jpg" alt="Large dog snuggling small cat."> 
+            </header>
+
+            <!-- Review form -->
+
+            <div id="review-form">
+                <form action="action_page.php">
+              
+                    <label for="fname-r">First Name</label>
+                    <input type="text" id="fname-r" name="firstname-r" placeholder="Your first name">
+              
+                    <label for="lname-r">Last Name</label>
+                    <input type="text" id="lname-r" name="lastname-r" placeholder="Your last name">
+
+                    <label for="animal-r">Type of pet</label>
+                        <select id="animal-r" name="animal-r">
+                            <option value="cat">Cat</option>
+                            <option value="dog">Dog</option>
+                            <option value="rodent">Rodent</option>
+                            <option value="goat">Goat</option>
+                            <option value="horse">Horse</option>
+                            <option value="Exotic">Exotic</option>
+                            <option value="aquatic">Aquatic</option>
+                            <option value="amphibian">Amphibian</option>
+                        </select>
+                        <label for="info-r">Your review</label>
+                        <textarea id="info-r" name="info-r" style="height:200px" placeholder="Write a review..."></textarea>
+
+                        <input type="submit" value="Submit">
+
+                    </form>  
+                </div>
+
+            <!-- Footer -->
+            <footer>
+                <img src="Pfoot.png" alt="logo">
+                    <div>
+                        <a href="index.html" class="content-links">Home</a>
+                        <a href="contact.html" class="content-links">Contact Us</a>
+                        <a href="staff.html" class="content-links">Our Staff</a>
+                    <a href="faq.html" class="content-links">FAQ</a>
+                    </div>
+
+                    <div>
+                        <a href="dogs.html" class="content-links">Dogs</a>
+                        <a href="cats.html" class="content-links">Cats</a>
+                        <a href="other-pets.html" class="content-links">Other pets</a>
+                    </div>
+
+                    <div>
+                        <a href="write-review.html" class="content-links">Leave a Review</a>
+                        <a href="reviews.html" class="content-links">Client Reviews</a>
+                    </div>
+                    
+            </footer>
+                            
+
+        </main>
+
+    </body>

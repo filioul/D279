@@ -1,0 +1,133 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Paradigm Pet Professionals</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <main>
+
+            <!-- Navigation Bar -->
+            <nav>
+                <a href="index.html" id="top-logo"><img src="P.png" alt="logo"></a>
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">About 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="contact.html">Contact Us</a>
+                      <a href="staff.html">Our Staff</a>
+                      <a href="faq.html">FAQ</a>
+                    </div>
+                </div> 
+                <div class="dropdown">
+                    <button class="dropbtn">Services 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="dogs.html">Dogs</a>
+                      <a href="cats.html">Cats</a>
+                      <a href="other-pets.html">Other pets</a>
+                    </div>
+                </div> 
+                <div class="dropdown">
+                    <button class="dropbtn">Reviews 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="write-review.html">Write A Review</a>
+                      <a href="reviews.html">Client Reviews</a>
+                    </div>
+                </div> 
+            </nav>
+
+            <!-- Header -->
+            <header>
+                <div class="header-div">
+                    <h1>Contact us</h1>
+                    <h3>Schedule your appointment now.</h3>
+                </div>
+                <img src="contact-hdr-img.jpg" alt="Large dog snuggling small cat."> 
+            </header>
+
+            <!-- Contact info and form 
+            Form is non functional for the purposes of prototyping-->
+
+            <section id="contact-info">
+                <h2>Contact form</h2>
+                <p>Please fill out the form below and we will get back to you about scheduling your appointment as soon as we can.</p>
+                <div>
+                    <form action="action_page.php">
+                  
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your first name">
+                  
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+                        <label for="mail">Email address</label>
+                        <input type="email" id="mail" name="mail" placeholder="Your email address">
+
+                        <label for="animal">Type of pet</label>
+                        <select id="animal" name="animal">
+                            <option value="cat">Cat</option>
+                            <option value="dog">Dog</option>
+                            <option value="other">Other (specify below)</option>
+                        </select>
+                        
+                        <label for="info">What type of service are you interested in?</label>
+                        <textarea id="info" name="info" style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+
+                    </form>  
+                </div>
+
+                
+                
+                <section id="socials-section">
+                    <h2>Find us on social media</h2>
+                    <section id="social-links">
+                        <a href="facebook.com" class="socials">Facebook</a>
+                        <a href="instagram.com" class="socials">Instagram</a>
+                        <a href="twitter.com" class="socials">Twitter</a>
+                        <a href="linkedin.com" class="socials">LinkedIn</a>
+                    </section>
+                    <h4><a href="mailto:office@paradigmpets.com" id="mailus">Or send us an email!</a></h4>
+                </section>
+            </section>
+
+
+            <!-- Footer -->
+            <footer>
+                <img src="P.png" alt="logo">
+                    <div>
+                        <a href="index.html" class="content-links">Home</a>
+                        <a href="contact.html" class="content-links">Contact Us</a>
+                        <a href="staff.html" class="content-links">Our Staff</a>
+                    <a href="faq.html" class="content-links">FAQ</a>
+                    </div>
+
+                    <div>
+                        <a href="dogs.html" class="content-links">Dogs</a>
+                        <a href="cats.html" class="content-links">Cats</a>
+                        <a href="other-pets.html" class="content-links">Other pets</a>
+                    </div>
+
+                    <div>
+                        <a href="write-review.html" class="content-links">Leave a Review</a>
+                        <a href="reviews.html" class="content-links">Client Reviews</a>
+                    </div>
+
+                
+            </footer>
+                            
+
+        </main>
+
+    </body>
